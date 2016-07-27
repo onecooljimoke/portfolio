@@ -19,10 +19,12 @@
         <h4 class="center-align">H4 Header</h4>
         <div id="navigation" class="row">
           <ul class="tabs">
-            <li class="tab col s3"><a href="#tab1" onclick="Materialize.fadeInImage('#tab1')">Tab 1</a></li>
+            <!-- see app.css for how to change the tab underline, tabs color and tabs hover -->
+            <li class="tab col s3"><a class="blue-text" href="#tab1" onclick="Materialize.fadeInImage('#tab1')">Tab 1</a></li>
             <li class="tab col s3"><a href="#tab2" class="active" onclick="Materialize.fadeInImage('#tab2')">Tab 2</a></li>
-            <li class="tab col s3"><a target="_blank" href="https://www.example.com">External Link</a></li>
-            <li class="tab col s3"><a target="_blank" href="https://www.example.com">External Link</a></li>
+            <li class="tab col s4"></li>
+            <li class="tab col s1"><a target="_blank" href="https://www.example.com"><i class="material-icons">directions_boat</i></a></li>
+            <li class="tab col s1"><a target="_blank" href="https://www.example.com"><i class="material-icons text-blue">local_car_wash</i></a></li>
           </ul>
         </div>
       </div>
@@ -39,16 +41,16 @@
 
         <!-- Start of Cards -->
         <div class="col s12 m4">
-          <div class="card hoverable">
+          <div class="card hoverable sticky-action">
             <div class="card-image waves-effect waves-block waves-light">
               <img class="activator" src="assets/bob.png">
             </div>
             <div class="card-content">
-              <span class="card-title activator grey-text text-darken-4">Card 1<i class="material-icons right">more_vert</i></span>
-              <p class="row">
-                <a class="col s6 waves-effect button-flat">Button</a>
-                <a class="col s6 waves-effect button-flat">Button</a>
-              </p>
+              <span class="card-title activator grey-text text-darken-4">Card 1 - sticky action<i class="material-icons right">more_vert</i></span>
+            </div>
+            <div class="card-action">
+              <a class="waves-effect button-flat">Action Button</a>
+              <a class="waves-effect button-flat">Action Button</a>
             </div>
             <div class="card-reveal">
               <span class="card-title grey-text text-darken-4">Card 1<i class="material-icons right">close</i></span>
@@ -60,16 +62,16 @@
         </div>
 
         <div class="col s12 m4">
-          <div class="card hoverable">
+          <div class="card hoverable sticky-action">
             <div class="card-image waves-effect waves-block waves-light">
               <img class="activator" src="assets/bob.png">
             </div>
             <div class="card-content">
-              <span class="card-title activator grey-text text-darken-4">Card 2<i class="material-icons right">more_vert</i></span>
-              <p class="row">
-                <a class="col s6 waves-effect button-flat">Button</a>
-                <a class="col s6 waves-effect button-flat">Button</a>
-              </p>
+              <span class="card-title activator grey-text text-darken-4">Card 2 - sticky action<i class="material-icons right">more_vert</i></span>
+            </div>
+            <div class="card-action">
+              <a class="waves-effect button-flat">Action Button</a>
+              <a class="waves-effect button-flat">Action Button</a>
             </div>
             <div class="card-reveal">
               <span class="card-title grey-text text-darken-4">Card 2<i class="material-icons right">close</i></span>
@@ -86,11 +88,11 @@
               <img class="activator" src="assets/bob.png">
             </div>
             <div class="card-content">
-              <span class="card-title activator grey-text text-darken-4">Card 3<i class="material-icons right">more_vert</i></span>
-              <p class="row">
-                <a class="col s6 waves-effect button-flat">Button</a>
-                <a class="col s6 waves-effect button-flat">Button</a>
-              </p>
+              <span class="card-title activator grey-text text-darken-4">Card 3 - no sticky action<i class="material-icons right">more_vert</i></span>
+            </div>
+            <div class="card-action">
+              <a class="waves-effect button-flat">Action Button</a>
+              <a class="waves-effect button-flat">Action Button</a>
             </div>
             <div class="card-reveal">
               <span class="card-title grey-text text-darken-4">Card 3<i class="material-icons right">close</i></span>

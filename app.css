@@ -1,0 +1,11 @@
+.tabs .tab a {
+    color: cornflowerblue;
+}
+
+.tabs .tab a:hover {
+    color: black;
+}
+
+.tabs .indicator {
+    background-color: cornflowerblue;
+}
