@@ -1,0 +1,12 @@
+#about {
+    color: #37474f;
+}
+
+.card .card-action a:hover:not(.btn):not(.btn-large):not(.btn-floating) {
+    color: #37474f;
+}
+
+.card .card-action a:not(.btn):not(.btn-large):not(.btn-floating) {
+    color: #ff3d00;
+}
+
